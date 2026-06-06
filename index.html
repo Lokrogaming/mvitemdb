@@ -125,6 +125,60 @@
 
     .search-box input:focus { outline: none; border-color: var(--accent); }
 
+    .toolbar-controls {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .sort-controls {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .sort-controls label {
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .sort-controls select {
+      background: var(--bg-input);
+      border: 2px solid var(--border);
+      border-radius: var(--radius);
+      color: var(--text);
+      padding: 0.55rem 0.75rem;
+      font-size: 0.85rem;
+      font-family: inherit;
+      cursor: pointer;
+    }
+
+    .sort-controls select:focus { outline: none; border-color: var(--accent); }
+
+    .btn-sort {
+      background: var(--bg-input);
+      border: 2px solid var(--border);
+      border-radius: var(--radius);
+      color: var(--text);
+      padding: 0.55rem 0.85rem;
+      font-size: 0.85rem;
+      font-family: inherit;
+      font-weight: 600;
+      cursor: pointer;
+      min-width: 72px;
+      transition: border-color 0.2s, color 0.2s;
+    }
+
+    .btn-sort:hover,
+    .btn-sort.desc {
+      border-color: var(--green);
+      color: var(--green);
+    }
+
     .category-filters {
       display: flex;
       flex-wrap: wrap;
@@ -269,6 +323,8 @@
     @media (max-width: 768px) {
       .search-box input { width: 100%; }
       .toolbar { flex-direction: column; align-items: stretch; }
+      .toolbar-controls { width: 100%; flex-direction: column; align-items: stretch; }
+      .sort-controls select { flex: 1; }
       .item-prices { grid-template-columns: 1fr; }
     }
   </style>
@@ -297,8 +353,19 @@
     <section class="panel">
       <div class="toolbar">
         <h2>Price List</h2>
-        <div class="search-box">
-          <input type="text" id="search" placeholder="Search items…">
+        <div class="toolbar-controls">
+          <div class="search-box">
+            <input type="text" id="search" placeholder="Search items…">
+          </div>
+          <div class="sort-controls">
+            <label for="sort-field">Sort by</label>
+            <select id="sort-field">
+              <option value="name">Name</option>
+              <option value="price">Price</option>
+              <option value="category">Category</option>
+            </select>
+            <button type="button" class="btn-sort" id="sort-direction" title="Toggle sort direction">↑ Asc</button>
+          </div>
         </div>
       </div>
       <div class="category-filters" id="category-filters"></div>
@@ -321,10 +388,13 @@
     let items = [];
     let categories = [];
     let activeCategory = '';
+    let sortDirection = 'asc';
 
     const itemsGrid = document.getElementById('items-grid');
     const categoryFilters = document.getElementById('category-filters');
     const searchInput = document.getElementById('search');
+    const sortFieldSelect = document.getElementById('sort-field');
+    const sortDirectionBtn = document.getElementById('sort-direction');
     const statItems = document.getElementById('stat-items');
     const statCategories = document.getElementById('stat-categories');
     const footerMeta = document.getElementById('footer-meta');
@@ -367,6 +437,31 @@
       });
     }
 
+    function sortItems(list) {
+      const field = sortFieldSelect.value;
+      const mult = sortDirection === 'asc' ? 1 : -1;
+
+      return [...list].sort((a, b) => {
+        let cmp = 0;
+
+        if (field === 'price') {
+          cmp = a.pricePerItem - b.pricePerItem;
+        } else if (field === 'category') {
+          cmp = getItemCategory(a).localeCompare(getItemCategory(b), undefined, { sensitivity: 'base' });
+          if (cmp === 0) cmp = a.name.localeCompare(b.name, undefined, { sensitivity: 'base' });
+        } else {
+          cmp = a.name.localeCompare(b.name, undefined, { sensitivity: 'base' });
+        }
+
+        return cmp * mult;
+      });
+    }
+
+    function updateSortDirectionLabel() {
+      sortDirectionBtn.textContent = sortDirection === 'asc' ? '↑ Asc' : '↓ Desc';
+      sortDirectionBtn.classList.toggle('desc', sortDirection === 'desc');
+    }
+
     function getCategoryCounts() {
       const counts = {};
       for (const item of items) {
@@ -407,7 +502,7 @@
     }
 
     function renderItems() {
-      const filtered = getFilteredItems();
+      const filtered = sortItems(getFilteredItems());
       const query = searchInput.value.trim();
       const hasFilters = query || activeCategory;
 
@@ -505,7 +600,15 @@
     });
 
     searchInput.addEventListener('input', renderItems);
+    sortFieldSelect.addEventListener('change', renderItems);
+    sortDirectionBtn.addEventListener('click', () => {
+      sortDirection = sortDirection === 'asc' ? 'desc' : 'asc';
+      updateSortDirectionLabel();
+      renderItems();
+    });
+    updateSortDirectionLabel();
     loadDatabase();
   </script>
 </body>
 </html>
+

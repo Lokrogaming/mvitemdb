@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-06T21:38:24.234Z",
+  "exportedAt": "2026-06-06T21:54:48.387Z",
   "categories": [
     "Armor",
     "Block",
@@ -225,6 +225,172 @@
       "stackSize": 64,
       "createdAt": "2026-06-06T21:28:59.298Z",
       "iconData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAG1BMVEUAAAD+9O3+3sjpyLHYr5OvjneIdFVXTTk7NCkB1DmqAAAAAXRSTlMAQObYZgAAAGVJREFUeNptz0EOBEEIAkAVEf//4k2T2UkfhpNUuBgf0cnduwp9mSorC/U3ITOPeWdo5GmFtixINDnDpqHPRY40pAzT7pJmI5YzbpUgDTQAqOY72SXQI21E7K6dNDyx3P1Zfvz+A7WpA2w1AicVAAAAAElFTkSuQmCC"
+    },
+    {
+      "id": "25f62fd8-9503-4869-8fe1-e5ab21093a8e",
+      "name": "Gold Ingot",
+      "category": "Resource",
+      "pricePerItem": 5,
+      "stackSize": 64,
+      "createdAt": "2026-06-06T21:44:07.077Z",
+      "iconData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAG1BMVEUAAAD//////eD99V/61krpsRXclhOyZBF1KALSidGuAAAAAXRSTlMAQObYZgAAAE5JREFUeNqVz0ESgDAMQlFMSOH+J3YmrVaX/bvHDpwk/SVSH2WnJeaKBhT5FpGGGI8iBw0xY6rGWAOvqVGkoUpuGoCqhyo357LVSfbBxRs/dgKAjgB7sgAAAABJRU5ErkJggg=="
+    },
+    {
+      "id": "4ddb7051-e98e-425c-991b-5ed4230a93c1",
+      "name": "Gold Nugget",
+      "category": "Resource",
+      "pricePerItem": 0.5,
+      "stackSize": 64,
+      "createdAt": "2026-06-06T21:44:36.006Z",
+      "iconData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAT0lEQVQ4y2NgGAU4QX0Qz38YJkvzj0tZ/3/+zATTee7c/0k2AKQZhkGAJEOQDQCBlxtFSTcABkCa70wTJs8bIP+DNFNsAMmakQ0hW/MIAgDaCV8WPs8pnQAAAABJRU5ErkJggg=="
+    },
+    {
+      "id": "8c8a0725-a541-4fb1-9bb6-c09f3470d9f6",
+      "name": "Golden Apple",
+      "category": "Food",
+      "pricePerItem": 20,
+      "stackSize": 64,
+      "createdAt": "2026-06-06T21:45:13.030Z",
+      "updatedAt": "2026-06-06T21:45:51.673Z",
+      "iconData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAHlBMVEUAAAD+/+b2+JLq7lfsy0XbohOyZBF1KAJUJAlUEglKVtcNAAAAAXRSTlMAQObYZgAAAFhJREFUeNp9z0sOgCAMRVGg70P3v2EDptEY9c3uSSdt3/OjNX8PJE/7SnZOgXZ1jN77CNoFewgWIBAAArnBJECCN+BqBrOVYFF1s1aCKmgpSmeX2M58f/oACs4CWTAWE9cAAAAASUVORK5CYII="
+    },
+    {
+      "id": "5534c319-e19d-4e8c-b6fd-ed8b73ec703d",
+      "name": "Enchanted Golden Apple",
+      "category": "Food",
+      "pricePerItem": 1500,
+      "stackSize": 64,
+      "createdAt": "2026-06-06T21:45:45.324Z",
+      "iconData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAHlBMVEUAAAD+/+b2+JLq7lfsy0XbohOyZBF1KAJUJAlUEglKVtcNAAAAAXRSTlMAQObYZgAAAFhJREFUeNp9z0sOgCAMRVGg70P3v2EDptEY9c3uSSdt3/OjNX8PJE/7SnZOgXZ1jN77CNoFewgWIBAAArnBJECCN+BqBrOVYFF1s1aCKmgpSmeX2M58f/oACs4CWTAWE9cAAAAASUVORK5CYII="
+    },
+    {
+      "id": "4363b2e7-1589-4740-91a4-818fef5c80f5",
+      "name": "Diamond",
+      "category": "Resource",
+      "pricePerItem": 120,
+      "stackSize": 64,
+      "createdAt": "2026-06-06T21:46:23.535Z",
+      "iconData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAIVBMVEUAAAD////V//ah++hK7dks4NggxbUaqqcckZoRcnoUXlN/hNeyAAAAAXRSTlMAQObYZgAAAFxJREFUeNqNjzkOxDAMAyORS1n8/4MXyGEnQIpMN1Po2L7S3f3wiMi+O4mUbw4kKK8QGUl6OQmUyldIAhgrhABw1BWSrKqSxjnELEmqucW/I2Ae4kEC8jbxzvubfzBNAqq5tnU2AAAAAElFTkSuQmCC"
+    },
+    {
+      "id": "9eabacbd-35a5-4fff-b10c-fd94b53df1a1",
+      "name": "Diamond Axe",
+      "category": "Tools",
+      "pricePerItem": 35,
+      "stackSize": 1,
+      "createdAt": "2026-06-06T21:47:01.921Z",
+      "updatedAt": "2026-06-06T21:51:58.549Z",
+      "iconData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAIVBMVEUAAAAz68srx6wnspqJZyceindoTh5JNhUOPzYoHgsIJSBnmo+OAAAAAXRSTlMAQObYZgAAAD9JREFUeNpjQAEcDVBGowRUQFgDKmBsngBmLFQOngBmcC03tYLIlU2GMNg9uRZABIAqwAKZUONKcAkwzGRABQB0ogw79ps+WQAAAABJRU5ErkJggg=="
+    },
+    {
+      "id": "12e64235-85c0-43a5-8258-5e82a5a3589e",
+      "name": "Diamond Boots",
+      "category": "Armor",
+      "pricePerItem": 35,
+      "stackSize": 1,
+      "createdAt": "2026-06-06T21:47:25.335Z",
+      "updatedAt": "2026-06-06T21:52:04.839Z",
+      "iconData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAGFBMVEUAAAAIJSAOPzZK7dkgxbWh++gaqqf///+Sb4flAAAAAXRSTlMAQObYZgAAAEVJREFUGFediEESwCAIA00E+/8flyDW8VhzgN1t7W4k65Q/jnVn8AzedxCy75B4BDtCUAbLN30ojCq08ABAoACpho/+7QV5hQDq80bh+AAAAABJRU5ErkJggg=="
+    },
+    {
+      "id": "73221e80-4565-4cf7-9386-118ef92ba741",
+      "name": "Diamond Chestplate",
+      "category": "Armor",
+      "pricePerItem": 35,
+      "stackSize": 1,
+      "createdAt": "2026-06-06T21:47:53.832Z",
+      "updatedAt": "2026-06-06T21:52:17.158Z",
+      "iconData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAGFBMVEUAAAD///+h++hK7dkgxbUaqqcOPzYIJSASzXVWAAAAAXRSTlMAQObYZgAAAFNJREFUeNqNz0EOgEAIBEGkB/j/j806JmuMB/vE1I34Ua+eRx+J4T46QR3RSgxAqluAocSRmYBqwUx5Qs3Earxhwg0GbeAF8t5QuiqDZW/L1fevJzKqAlDbFhetAAAAAElFTkSuQmCC"
+    },
+    {
+      "id": "27a67b48-03f4-488c-9da8-f757278a8481",
+      "name": "Diamond Helmet",
+      "category": "Armor",
+      "pricePerItem": 35,
+      "stackSize": 1,
+      "createdAt": "2026-06-06T21:48:13.982Z",
+      "updatedAt": "2026-06-06T21:52:13.343Z",
+      "iconData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAGFBMVEUAAAD///+h++hK7dkgxbUaqqcOPzYIJSASzXVWAAAAAXRSTlMAQObYZgAAADtJREFUeNpjwAvY0tISwIwUY+NwsICTkLFrAYhhpGziAmYYp6WHgBlm5eUlMEYpmOEOZTCkMzCUMxAFAO7pDb5r4fEVAAAAAElFTkSuQmCC"
+    },
+    {
+      "id": "fa00353f-0057-4bb1-9692-9c3ec69120f6",
+      "name": "Diamond Hoe",
+      "category": "Tools",
+      "pricePerItem": 25,
+      "stackSize": 1,
+      "createdAt": "2026-06-06T21:48:40.346Z",
+      "updatedAt": "2026-06-06T21:52:09.326Z",
+      "iconData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAHlBMVEUAAAAz68srx6wnspqJZydoTh5JNhUOPzYoHgsIJSBDqdTeAAAAAXRSTlMAQObYZgAAADFJREFUeNpjQAbs5VBGoVIBhME5WT0VyjL2YICAJEsIzRYxAcJIaYAJMJAqwNDBgAoA50AJ6TlXpBwAAAAASUVORK5CYII="
+    },
+    {
+      "id": "1d8879db-bcb5-4d27-b86b-31e2d1a18f9c",
+      "name": "Diamond Horse Armor",
+      "category": "Armor",
+      "pricePerItem": 1,
+      "stackSize": 1,
+      "createdAt": "2026-06-06T21:49:00.029Z",
+      "updatedAt": "2026-06-06T21:52:28.664Z",
+      "iconData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAG1BMVEUAAAD///+h++hK7dnCvgogxbWfmgAaqqdvbA9cJVQVAAAAAXRSTlMAQObYZgAAAEtJREFUeNpjIASY4AxVKEOJKQBMMwsZBUBlygsYGATV0pLCgTxG4xAX93KQsGlJSrqRAVBheJlbejBQLWtoREd7KFCEvRwECrBYBwCmXw4rKzSrtQAAAABJRU5ErkJggg=="
+    },
+    {
+      "id": "b258cc6f-9ced-4e47-bd99-8ef77e7a7aea",
+      "name": "Diamond Leggings",
+      "category": "Armor",
+      "pricePerItem": 35,
+      "stackSize": 1,
+      "createdAt": "2026-06-06T21:49:30.872Z",
+      "updatedAt": "2026-06-06T21:52:32.567Z",
+      "iconData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAGFBMVEUAAAD///+h++hK7dkgxbUaqqcOPzYIJSASzXVWAAAAAXRSTlMAQObYZgAAAEdJREFUeNpjwAbS0tLSQTSbopCyaQGIoWRsbAJmKJs4QxnupRCGcQE7hGFSwIbGcClgdwEzXAvYXUEM9tACIAIxyguACIvVAIxYEPa75ohKAAAAAElFTkSuQmCC"
+    },
+    {
+      "id": "4e67e5d3-8c56-4b2d-bbbe-db9ff80a7904",
+      "name": "Diamond Nautilus Armor",
+      "category": "Armor",
+      "pricePerItem": 1,
+      "stackSize": 1,
+      "createdAt": "2026-06-06T21:49:53.111Z",
+      "updatedAt": "2026-06-06T21:52:39.665Z",
+      "iconData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAFVBMVEUAAAAUfnoZm5Eet6uh++hD3sn///9/H2ICAAAAAXRSTlMAQObYZgAAAFpJREFUeNp1z0EKA0EMA0GpLc3/n5yDJywJrMGHanyxXgf+mMAPz7npy11bEs1liiU5bZbcAO0pMGPJrkMPzIBl7NYNsxc22H4uJHuGhmF9UwCvN5XLJ718/QH6pwG43VSX4gAAAABJRU5ErkJggg=="
+    },
+    {
+      "id": "9cf1c7dd-6a7a-4d1b-883f-4fbd16ca91c5",
+      "name": "Diamond Pickaxe",
+      "category": "Tools",
+      "pricePerItem": 35,
+      "stackSize": 1,
+      "createdAt": "2026-06-06T21:50:20.713Z",
+      "updatedAt": "2026-06-06T21:52:44.047Z",
+      "iconData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAHlBMVEUAAAAz68srx6wnspqJZydoTh5JNhUOPzYoHgsIJSBDqdTeAAAAAXRSTlMAQObYZgAAAEVJREFUeNpjwArKywvANLuQsXoqmFU509gDKplkCaHZIowmgBkpDZMnQAQYgAywAMOkCRABhokTIAIMnFABqBYoowPNZgA7zw9D/CrJmgAAAABJRU5ErkJggg=="
+    },
+    {
+      "id": "82494f7b-9425-4817-a864-864f38db23d0",
+      "name": "Diamond Shovel",
+      "category": "Tools",
+      "pricePerItem": 50,
+      "stackSize": 1,
+      "createdAt": "2026-06-06T21:50:54.685Z",
+      "updatedAt": "2026-06-06T21:52:53.040Z",
+      "iconData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAHlBMVEUAAABJNhUoHgsz68sIJSAOPzaJZycrx6wnsppoTh6NJ1OoAAAAAXRSTlMAQObYZgAAADhJREFUGFeVyTkCACAMAkFyqv//sG3Ayu0GgJ+qkh2x51KxdiR7zQGmbleDfBwzazH/9vxiwHWgLn4QANVOSXqPAAAAAElFTkSuQmCC"
+    },
+    {
+      "id": "644ba89a-285a-41ad-89ac-e8ccdb42b152",
+      "name": "Diamond Spear",
+      "category": "Weapons",
+      "pricePerItem": 1,
+      "stackSize": 1,
+      "createdAt": "2026-06-06T21:51:22.092Z",
+      "updatedAt": "2026-06-06T21:52:56.775Z",
+      "iconData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAMFBMVEUAAAAIJSAoHguJZyceincz68vy//2k/fArx6y6XzRoTh6jSyJBGAVnKQtJNhUOPzZI1cKBAAAAAXRSTlMAQObYZgAAAEdJREFUeNqFyzkSwCAMA0CZ4CMX/v9vM6mwaFC30giUzGS6SaW6qUyGazEy/r3Xh1pUY3j0WoyrCflogAh5Zu939fmwbzZWf1aQAisoA8WXAAAAAElFTkSuQmCC"
+    },
+    {
+      "id": "567af738-9a24-4c4e-87a2-d63f3aeb7982",
+      "name": "Diamond Sword",
+      "category": "Weapons",
+      "pricePerItem": 35,
+      "stackSize": 1,
+      "createdAt": "2026-06-06T21:51:48.033Z",
+      "updatedAt": "2026-06-06T21:53:00.852Z",
+      "iconData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAJFBMVEUAAAAOPzYIJSAz68uk/fArx6weincVY1VoTh5JNhUoHguJZycazUdMAAAAAXRSTlMAQObYZgAAAExJREFUGNN1jsENwDAMAgGndpLuv29/jZFa/+4QwkA/ks5jyPky8cHxwyQAxslZNAaYiux9Zlb4A0XjNcVu1r0hvYacGwB0Rq0OSC4ehwkBE0lygnsAAAAASUVORK5CYII="
     }
   ]
 }

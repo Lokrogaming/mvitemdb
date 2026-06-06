@@ -1,0 +1,230 @@
+{
+  "version": 1,
+  "exportedAt": "2026-06-06T21:38:24.234Z",
+  "categories": [
+    "Armor",
+    "Block",
+    "Blocks",
+    "Books",
+    "Food",
+    "Misc",
+    "Potions",
+    "Redstone",
+    "Resource",
+    "Resources",
+    "Tools",
+    "Weapons"
+  ],
+  "items": [
+    {
+      "id": "843e7deb-cd89-4502-bacc-f13b894abee5",
+      "name": "Netherite Axe",
+      "category": "Tools",
+      "pricePerItem": 1500,
+      "stackSize": 1,
+      "createdAt": "2026-06-06T20:42:46.274Z",
+      "iconData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAf0lEQVQ4y2NgoAfw0nT4D8Jka26rbgNjkg2Bafa3sQNjkgwAKS5IL4BrBuHYsNj/CSZGxBmiLCCEYgBIM4gGiRPtCpBiEIZpNlJXJ90QfUUlsLNBmmCuIdoAkOZiV2e4BpiLSLaZ5LgHaXZ2cCZfs7Wl9QDZjBxgJAOSQpiaAADLaWMfk0BnhQAAAABJRU5ErkJggg=="
+    },
+    {
+      "id": "84a626b2-130c-4a14-99dd-565037368bf0",
+      "name": "Netherite Boots",
+      "category": "Armor",
+      "pricePerItem": 1500,
+      "stackSize": 1,
+      "createdAt": "2026-06-06T20:43:10.073Z",
+      "iconData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAcklEQVR42mMYZsBQQ+O/irzCf1zyIDmQGgZ8CsqyysCG4JITFxTEb0BsWCxOA3w9fYkzwN3OHqIQIQ4SI2AAwha4QjRxWhmAqQiPFxByeDWb6uqiGwASwzQEzQZkzSgKoHxkNRgGwDThDSSIPAIPk/wDAP5Kfi2DXilPAAAAAElFTkSuQmCC"
+    },
+    {
+      "id": "c68a934e-d224-4351-a8ed-93584dafe9c5",
+      "name": "Netherite Chestplate",
+      "category": "Armor",
+      "pricePerItem": 1500,
+      "stackSize": 1,
+      "createdAt": "2026-06-06T20:43:40.218Z",
+      "iconData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAHlBMVEUAAAB2anZdVl1NSU1HPj83NTc1LS0kHyAnHB0XERElrX5TAAAAAXRSTlMAQObYZgAAAGhJREFUeNpjwATs5eUMDOXlBQzsJuEMDKXOQIareQNHcQiQEeZc0W6SCmQoBokXqgoBGdNCFIVcMycwMHA6GSmrAGkGzlBFoVAwwyU01AXMAKkBM9KcVNJADIaZqWEzwbZxzpw5AclyALL0GIDADuxaAAAAAElFTkSuQmCC"
+    },
+    {
+      "id": "79f973f7-e564-463a-ae88-b178cb0f4961",
+      "name": "Netherite Helmet",
+      "category": "Armor",
+      "pricePerItem": 1500,
+      "stackSize": 1,
+      "createdAt": "2026-06-06T20:44:49.944Z",
+      "iconData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAaElEQVR42mMYpkBFXuE/Nky0Znc7+/++nr4o2FRX97+4oOB/ojWXZZX9jw2LhRkAEocbgs8AVJsRmmGYKANgfoa4AMEnyQCQQpgLQGySDEA2BIaJC0ioLdgMAIkTHRNYFcEMYhgFGAAABlp6MNlYzNgAAAAASUVORK5CYII="
+    },
+    {
+      "id": "df62835b-0722-431a-912e-e758b4c3d401",
+      "name": "Netherite Hoe",
+      "category": "Tools",
+      "pricePerItem": 1500,
+      "stackSize": 1,
+      "createdAt": "2026-06-06T20:45:26.790Z",
+      "updatedAt": "2026-06-06T20:58:26.375Z",
+      "iconData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAbElEQVR42mOgKfDStPsPw2Rpbqtug2HyDJEWEf0PwgXpBWBDjNTV/+srKv1PMDH6T7JBsWGxYIOKXZ1BhpLuGqDNYEP8bexINwDqbJBGsjRT4myEzSA+fW12dqBAs7WlNUU209XPmMmWgd4AAO5pU4PA7PyXAAAAAElFTkSuQmCC"
+    },
+    {
+      "id": "c6be1040-8e47-418d-a0a3-6e4a001859d2",
+      "name": "Netherite Horse Armor",
+      "category": "Armor",
+      "pricePerItem": 1,
+      "stackSize": 1,
+      "createdAt": "2026-06-06T20:51:32.968Z",
+      "iconData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAG1BMVEUAAADRfQB2ana4UABdVl1RRE6UKQZJOT8yJyeb0LNvAAAAAXRSTlMAQObYZgAAAEtJREFUeNpjIARY4Ax3KMOFpQBMs6qEFEBlOhoYGJScjU0qgDym0EJBiQ6QcHijoUVIAFBhRbOwRSlQLXt5WVpGOVCEowMEGrBYBwAMoQ/X7gFPmgAAAABJRU5ErkJggg=="
+    },
+    {
+      "id": "0d00230c-740b-4c6a-9579-b463debb7c95",
+      "name": "Netherite Ingot",
+      "category": "Resources",
+      "pricePerItem": 3500,
+      "stackSize": 64,
+      "createdAt": "2026-06-06T20:52:44.602Z",
+      "iconData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAIVBMVEUAAABzcXNaV1pNSU1IRUhMQUM7OTs8MjIxKSonHB0RERGQLp7qAAAAAXRSTlMAQObYZgAAAF1JREFUeNqVzzkSwDAIBEHEsSz8/8EuJAV2aLIeSJA/U/VVRfAld7NTrlRVzZwipREWtstaTqlYs7NYQ7RU5lIdJZkTAByRwIQEHMNEdosIE/s6e/OU5NUt7P7x4gOFEgMZ8911ewAAAABJRU5ErkJggg=="
+    },
+    {
+      "id": "e6b0d309-b795-4e28-9318-0c8d20f478f9",
+      "name": "Netherite Leggings",
+      "category": "Armor",
+      "pricePerItem": 1500,
+      "stackSize": 1,
+      "createdAt": "2026-06-06T20:55:44.517Z",
+      "iconData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAd0lEQVQ4y2NgGHRARV7hPy4sLij4n6Dm2LDY/2VZZWAMYoOwr6cvGJvq6uI3BGYAsiZk7G5nT5wByBpAmCwDYIpBGOR0og2A2YasEMQmyQB0hbjEaWMALODQvYBNHKcB6PENM4BgOoCFODYDsIljNQAZExIfHAAAlOmjA1lsLV8AAAAASUVORK5CYII="
+    },
+    {
+      "id": "15d4d3c5-21d3-4d2e-8d45-963f6c43d861",
+      "name": "Netherite Nautilus Armor",
+      "category": "Armor",
+      "pricePerItem": 1,
+      "stackSize": 1,
+      "createdAt": "2026-06-06T20:58:19.007Z",
+      "iconData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAFVBMVEUAAAAdDQ8uHiA0LC5RRE47OTtwZ3D1pVG2AAAAAXRSTlMAQObYZgAAAFpJREFUeNp1z0EKA0EMA0GpLc3/n5yDJywJrMGHanyxXgf+mMAPz7npy11bEs1liiU5bZbcAO0pMGPJrkMPzIBl7NYNsxc22H4uJHuGhmF9UwCvN5XLJ718/QH6pwG43VSX4gAAAABJRU5ErkJggg=="
+    },
+    {
+      "id": "05ba8102-443e-4ed4-be8c-977b4027e531",
+      "name": "Netherite Pickaxe",
+      "category": "Tools",
+      "pricePerItem": 1500,
+      "stackSize": 1,
+      "createdAt": "2026-06-06T21:03:50.449Z",
+      "iconData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAJFBMVEUAAACGe4ZwZ3BdVl1zRUNPPD5DQENgNDI7OTtKKUAvISIjEBKxjxDsAAAAAXRSTlMAQObYZgAAAEVJREFUeNpjwApmzpwApjkFhSxngVmzdwd7M0DAUmsIzVUdvAHMWLJh0waIAMPGDRABCIOrmwHCWAYkuKECUC1Qxm40mwGSfBRqSnvsrAAAAABJRU5ErkJggg=="
+    },
+    {
+      "id": "26addf6a-4ddb-4dde-ad7b-6d0fe4497894",
+      "name": "Netherite Scrap",
+      "category": "Resources",
+      "pricePerItem": 250,
+      "stackSize": 64,
+      "createdAt": "2026-06-06T21:04:13.122Z",
+      "iconData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAGFBMVEUAAACVhn5+YFllR0BdNCxKKB1BHhUkEQtwnJDrAAAAAXRSTlMAQObYZgAAAFNJREFUeNp1z0EKwDAIRFHjjM79b1xqjNBC/u6JINq9zB/Xyi9Bz6E7QKInCUcXMjORAFmUvSkJsthJxQhtJ0NSEAxtVwBmAzju8pyYxOYk3Z9+AB10Aij5lbfDAAAAAElFTkSuQmCC"
+    },
+    {
+      "id": "8b30dc8f-373d-476e-a1db-c82129e611f6",
+      "name": "Netherite Shovel",
+      "category": "Tools",
+      "pricePerItem": 1500,
+      "stackSize": 1,
+      "createdAt": "2026-06-06T21:04:38.034Z",
+      "updatedAt": "2026-06-06T21:06:07.892Z",
+      "iconData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAZ0lEQVR42mMYWsBL0+E/DJOlua26DY6VBYT+k6w5NiwWjAvSC8AGEKsZpAGs0d/GjhQDEEBfUYkyzcWuziBNlGkG8UnWnGBihGIjSZqtLa3pphmhEYSdHZxRNJMXYOQCkGYQpmsGAwDvR1pHv2PBmwAAAABJRU5ErkJggg=="
+    },
+    {
+      "id": "ccce1f11-4993-4878-8d13-36f02dfb8a9b",
+      "name": "Netherite Spear",
+      "category": "Weapons",
+      "pricePerItem": 1,
+      "stackSize": 1,
+      "createdAt": "2026-06-06T21:05:20.622Z",
+      "updatedAt": "2026-06-06T21:06:19.333Z",
+      "iconData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAKlBMVEUAAAAjEBJzRUMxKSo8MjKGe4ZdVl1YTlZDQENgNDI7OTtLP0ZKKUAvISIldkaIAAAAAXRSTlMAQObYZgAAAEJJREFUeNqdyzEWgDAMAlAwJlGb3v+66mToKNuHByRVpQxnZ4bv/Dgim1Hj3a0/Uo3pZr2YJyneHpBq4L+PxZcaq28j+AHGLGqbIwAAAABJRU5ErkJggg=="
+    },
+    {
+      "id": "76942127-cd39-4085-9ed3-743d7b9bfc26",
+      "name": "Netherite Sword",
+      "category": "Weapons",
+      "pricePerItem": 1500,
+      "stackSize": 1,
+      "createdAt": "2026-06-06T21:05:54.129Z",
+      "iconData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAKlBMVEUAAACGe4ZwZ3BdVl1zRUNRRE5PPD5gNDI7OTtKKUAyJycvISIjEBIWCBTo6UOrAAAAAXRSTlMAQObYZgAAAE9JREFUeNpVzFEOgDAIA9CNCVqs97+u0Wxk5YPwSqBJAVD3TrV1il1tbuLhYxr4mmewdliua8T0CqxcD8X3yUhuPtjISoDrH1lBskk91OAFQM4CosBrRCoAAAAASUVORK5CYII="
+    },
+    {
+      "id": "b135fa75-e132-4055-a9ec-1df2e7a41da9",
+      "name": "Netherite Upgrade Smithing Template",
+      "category": "Misc",
+      "pricePerItem": 500,
+      "stackSize": 64,
+      "createdAt": "2026-06-06T21:07:04.426Z",
+      "iconData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAG1BMVEUAAABg6OhLyckgmriFQkJyMjJlKChRFRU0Dg6rizFlAAAAAXRSTlMAQObYZgAAAFhJREFUeNoFwYcNAgEMADFfQIj9p0Xfgg0AIPgAHITPLmjnMLCkNAym8goYoLkiDKjrOacwUNfD2WJg78rci4FNEgwkacNAVApvyBYg+K5V/Ah84QcAAPwB3LEZKARl0FcAAAAASUVORK5CYII="
+    },
+    {
+      "id": "f4639498-7c6e-48a3-8e5f-b76a6e347eb0",
+      "name": "Ancient Debris",
+      "category": "Block",
+      "pricePerItem": 500,
+      "stackSize": 64,
+      "createdAt": "2026-06-06T21:18:45.896Z",
+      "iconData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAFVBMVEVdNCxlR0B+YFmVhn4zGBBBHhVKLCMI5SGEAAAAbklEQVR42gXBAQEAMAzCsBY+/Et+Arrb3hQPUUxzQ5kANBoBBgwF4LCNDNi4d4kAx1va3gMY7F7UNBtj7J6q+rZt7E5EaduEvAOUqCr3TIGhKtybad0UlbsDzA0VaDOAN5AU0wz2NkBR2XhL2+kHKZUCOB4s6KcAAAAASUVORK5CYII="
+    },
+    {
+      "id": "450e5c95-21bf-4390-a3aa-cad6d9f20c53",
+      "name": "Redstone",
+      "category": "Redstone",
+      "pricePerItem": 50,
+      "stackSize": 64,
+      "createdAt": "2026-06-06T21:20:02.666Z",
+      "iconData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAGFBMVEUAAAD/AACqDwFyAABcBwBBBQA0BgUtAAChZ6iRAAAAAXRSTlMAQObYZgAAAElJREFUeNpjwA9YHKAMZxWogKJqAZjhJGQYDhZQUlR1BQk5C5kKB6WDZIyETENAcqWKykGhIBH2IFPXMLC28tSwcgYwKC/HaiEAtf4MFvnbFVwAAAAASUVORK5CYII="
+    },
+    {
+      "id": "d81916f9-7247-453f-a117-e31cda6e581e",
+      "name": "Redstone",
+      "category": "Resources",
+      "pricePerItem": 50,
+      "stackSize": 64,
+      "createdAt": "2026-06-06T21:20:26.596Z",
+      "iconData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAGFBMVEUAAAD/AACqDwFyAABcBwBBBQA0BgUtAAChZ6iRAAAAAXRSTlMAQObYZgAAAElJREFUeNpjwA9YHKAMZxWogKJqAZjhJGQYDhZQUlR1BQk5C5kKB6WDZIyETENAcqWKykGhIBH2IFPXMLC28tSwcgYwKC/HaiEAtf4MFvnbFVwAAAAASUVORK5CYII="
+    },
+    {
+      "id": "aa8cd5b2-75e9-4f10-858c-da40446dddb6",
+      "name": "Coal",
+      "category": "Resources",
+      "pricePerItem": 12,
+      "stackSize": 64,
+      "createdAt": "2026-06-06T21:20:59.518Z",
+      "iconData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAHlBMVEUAAAA5PkY2NjYyMjIuLi4lJSUmHiQcHB4fFyEQEBX7Xk+fAAAAAXRSTlMAQObYZgAAAF9JREFUeNpjwAbYywsgjBJjd4hAkHBoAZihamISDmakBQmZgoRKXVOVXC1BaoVDXMIiQSIurqFuaROAjNBUt4gIIKMiNS0tIwPI4OxIbcvoBOmf0dE5cwKIwTlzArLVAFPNF7pzfq2nAAAAAElFTkSuQmCC"
+    },
+    {
+      "id": "1365d7b4-fea3-4395-a25b-fe4348fbe904",
+      "name": "Charcoal",
+      "category": "Resources",
+      "pricePerItem": 8,
+      "stackSize": 64,
+      "createdAt": "2026-06-06T21:21:30.381Z",
+      "iconData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAHlBMVEUAAAB9b1hgVUNORTZCOy8xKyIrJh0jHxgdGhQTEQ1+0QTDAAAAAXRSTlMAQObYZgAAAF5JREFUeNp1zzESxDAIQ9GNEZK4/4V3iJl4UkTdfxX8vmb7lUSyTldesYJ1GrECeKTgXBcWVAO0EwvZsls2mbIHBN8TN4ikOjFgMbZogCJFW27Y0u3ukY6qc3zH19t/vicDq+/zDLgAAAAASUVORK5CYII="
+    },
+    {
+      "id": "fe40fcfd-a5a8-4cc3-83aa-3867ada22059",
+      "name": "Copper Ingot",
+      "category": "Resource",
+      "pricePerItem": 14,
+      "stackSize": 64,
+      "createdAt": "2026-06-06T21:22:20.507Z",
+      "iconData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAG1BMVEUAAAD7w7b8mYLnfFbBWjacTjGcRSmKQSltNCFALkIDAAAAAXRSTlMAQObYZgAAAFdJREFUeNqVzzESxDAIBEGOnQX+/+IryVaVHZqsJ2Ljy1W9VdAPCRv1LXRZdEQlOs5URyklQJmJPVEitSRw72B+ib3c7OBjz0RE4dyezVUsc+v8NfNh4h887AJ1Fj5g/wAAAABJRU5ErkJggg=="
+    },
+    {
+      "id": "8af0e608-4221-444e-a852-546364455d8c",
+      "name": "Iron Ingot",
+      "category": "Resource",
+      "pricePerItem": 2,
+      "stackSize": 64,
+      "createdAt": "2026-06-06T21:23:56.181Z",
+      "iconData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAAAAAA6mKC9AAAAAnRSTlMAAHaTzTgAAABWSURBVHjalc8xEcAwDENRkzKXTgIhCEIjSGbj3sWXXjpG2/ub4mbAX7B5qqrKPLULur51FwPurS46A3aPRGqCR6TtDMjeVGZEQCtIuThFz9YUZF5cfAGg5lJ3ApNkTAAAAABJRU5ErkJggg=="
+    },
+    {
+      "id": "54a90eda-1ccf-41e3-aaea-1d4c531b445a",
+      "name": "Raw Iron",
+      "category": "Resource",
+      "pricePerItem": 20,
+      "stackSize": 64,
+      "createdAt": "2026-06-06T21:28:59.298Z",
+      "iconData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAG1BMVEUAAAD+9O3+3sjpyLHYr5OvjneIdFVXTTk7NCkB1DmqAAAAAXRSTlMAQObYZgAAAGVJREFUeNptz0EOBEEIAkAVEf//4k2T2UkfhpNUuBgf0cnduwp9mSorC/U3ITOPeWdo5GmFtixINDnDpqHPRY40pAzT7pJmI5YzbpUgDTQAqOY72SXQI21E7K6dNDyx3P1Zfvz+A7WpA2w1AicVAAAAAElFTkSuQmCC"
+    }
+  ]
+}
